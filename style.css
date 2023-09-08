@@ -1,0 +1,61 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #033aee;
+}
+
+header {
+    background-color: s#ffffff;
+    color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7eff6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: s#9c1d92;
+    color: #a114e2;
+    padding: 10px;
+}
+body {
+    background-color: rgb(17, 160, 216); /* Azul em código RGB (vermelho, verde, azul) */
+}
+p {
+    color: rgb(0, 0, 0); /* Nome da cor vermelha */
+}
+/* Estilize o botão */
+.botao {
+    background-color: #3498db; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remova a borda */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Cursor ao passar por cima */
+    transition: background-color 0.3s, color 0.3s; /* Transições suaves */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Estilize o botão ao passar o mouse por cima */
+.botao:hover {
+    background-color: #2980b9; /* Cor de fundo quando hover */
+    color: #fff; /* Cor do texto quando hover */
+}
+
