@@ -1,0 +1,18 @@
+
+@-webkit-keyframes fundocor {
+    0%   {background: #069baf;}
+    100% {background: #0894be;}
+}
+
+
+@keyframes fundocor {
+    0%   {background: #09a4ca;}
+    100% {background: #06abec;}
+}
+
+
+body{
+-webkit-animation: fundocor 3s linear 2s infinite alternate; 
+    animation: fundocor 3s linear 2s infinite alternate; 
+}
+
